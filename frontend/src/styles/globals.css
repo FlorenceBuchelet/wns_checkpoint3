@@ -108,3 +108,19 @@ body {
     font-weight: bold;
   }
 }
+
+@media screen and (max-width: 768px) {
+  .sidebar {
+    top: 20vh;
+  }
+
+  .footer {
+    text-align: center;
+  }
+
+  .header {
+    flex-direction: column;
+    height: 20vh;
+  }
+  
+}
