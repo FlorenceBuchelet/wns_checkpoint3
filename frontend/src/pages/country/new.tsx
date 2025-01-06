@@ -55,17 +55,17 @@ export default function Home() {
 
             <form onSubmit={handleSubmit}>
                 <label>
-                    Name:
+                    Name:&nbsp;
                     <input type="text" name="name" ref={nameRef} />
                 </label>
 
                 <label>
-                    Emoji:
+                    Emoji:&nbsp;
                     <input type="text" name="emoji" ref={emojiRef} />
                 </label>
 
                 <label>
-                    Continent:
+                    Continent:&nbsp;
                     <select
                         value={selectedContinent}
                         onChange={(e) => setSelectedContinent(e.target.value)}
@@ -82,7 +82,7 @@ export default function Home() {
                 </label>
 
                 <label>
-                    Code:
+                    Code:&nbsp;
                     <input type="text" name="code" ref={codeRef} />
                 </label>
 

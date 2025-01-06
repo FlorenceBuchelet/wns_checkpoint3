@@ -20,12 +20,11 @@ export default function Home() {
 
   return (
     <>
-      <h1>Countries</h1>
+      <h1>{country.name}</h1>
       <ul>
-        <li>{country.name}</li>
-        <li>{country.emoji}</li>
-        <li>{country.continent.name}</li>
-        <li>{country.code}</li>
+        <li>Flag: {country.emoji}</li>
+        <li>Continent: {country.continent.name}</li>
+        <li>Code: {country.code}</li>
       </ul>
     </>
   );
