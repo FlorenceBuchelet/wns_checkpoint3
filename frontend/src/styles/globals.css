@@ -111,7 +111,11 @@ body {
 
 @media screen and (max-width: 768px) {
   .sidebar {
-    top: 20vh;
+    display: none;
+  }
+
+  .content {
+    margin-inline-start: 0;
   }
 
   .footer {
